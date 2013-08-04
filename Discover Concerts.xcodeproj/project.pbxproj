@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1ACD21171EE3380004453F /* EventDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1ACD1F171EE3370004453F /* EventDescriptionViewController.m */; };
+		8C1ACD22171EE3380004453F /* EventDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1ACD20171EE3380004453F /* EventDescriptionViewController.xib */; };
+		8C315E21171DA8FB00FD518E /* BandFavoriteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C315E1F171DA8FB00FD518E /* BandFavoriteDetailViewController.m */; };
+		8C315E22171DA8FB00FD518E /* BandFavoriteDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C315E20171DA8FB00FD518E /* BandFavoriteDetailViewController.xib */; };
+		8CB67D3A17259CBF0072F5C4 /* UserDiscoverEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB67D3817259CBE0072F5C4 /* UserDiscoverEventsViewController.m */; };
+		8CB67D3B17259CBF0072F5C4 /* UserDiscoverEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB67D3917259CBE0072F5C4 /* UserDiscoverEventsViewController.xib */; };
+		8CB67D3F17259F960072F5C4 /* UserEventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB67D3D17259F960072F5C4 /* UserEventDetailViewController.m */; };
+		8CB67D4017259F960072F5C4 /* UserEventDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB67D3E17259F960072F5C4 /* UserEventDetailViewController.xib */; };
+		8CF14A4D171E89840046AF99 /* BandEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF14A4B171E89840046AF99 /* BandEventsTableViewController.m */; };
+		8CF14A4E171E89840046AF99 /* BandEventsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CF14A4C171E89840046AF99 /* BandEventsTableViewController.xib */; };
+		8CF14A57171E93EA0046AF99 /* BandAddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF14A55171E93EA0046AF99 /* BandAddEventViewController.m */; };
+		8CF14A58171E93EA0046AF99 /* BandAddEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CF14A56171E93EA0046AF99 /* BandAddEventViewController.xib */; };
+		FF0E176C1712055B00FE2CD2 /* app icon retina.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0E17691712055B00FE2CD2 /* app icon retina.png */; };
+		FF0E176D1712055B00FE2CD2 /* app icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0E176A1712055B00FE2CD2 /* app icon.png */; };
+		FF0E176E1712055B00FE2CD2 /* mzm.ihmsxbpe-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0E176B1712055B00FE2CD2 /* mzm.ihmsxbpe-512x512.png */; };
+		FF8C4E3F173F154900F00D52 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8C4E3E173F154900F00D52 /* EventKit.framework */; };
+		FF8C4E41173F17CC00F00D52 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8C4E40173F17CC00F00D52 /* EventKitUI.framework */; };
+		FF8C4E45173F1EDF00F00D52 /* PopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C4E43173F1EDF00F00D52 /* PopUpViewController.m */; };
+		FF8C4E46173F1EDF00F00D52 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8C4E44173F1EDF00F00D52 /* PopUpViewController.xib */; };
+		FF8C4E48173F1FFA00F00D52 /* delete_32.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8C4E47173F1FFA00F00D52 /* delete_32.png */; };
+		FF8C4E4A173F200500F00D52 /* Volunteering Hands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF8C4E49173F200500F00D52 /* Volunteering Hands.jpg */; };
+		FF8C4E4C173F20F800F00D52 /* Concert_Hands__PS_Brush__by_pantaeba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF8C4E4B173F20F800F00D52 /* Concert_Hands__PS_Brush__by_pantaeba.jpg */; };
+		FF9381C11703810700682BB3 /* BandProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9381BF1703810700682BB3 /* BandProfileViewController.m */; };
+		FF9381C21703810700682BB3 /* BandProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9381C01703810700682BB3 /* BandProfileViewController.xib */; };
+		FF9381C9170388A500682BB3 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9381C7170388A500682BB3 /* UserProfileViewController.m */; };
+		FF9381CA170388A500682BB3 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9381C8170388A500682BB3 /* UserProfileViewController.xib */; };
+		FF939E57174416F900426DA5 /* add to calendar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF939E56174416F900426DA5 /* add to calendar.jpg */; };
+		FF939E5A174418DF00426DA5 /* attend event orange.png in Resources */ = {isa = PBXBuildFile; fileRef = FF939E58174418DF00426DA5 /* attend event orange.png */; };
+		FF939E5B174418DF00426DA5 /* attend event blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FF939E59174418DF00426DA5 /* attend event blue.png */; };
+		FF9DAC9B17105BA500751E6E /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9DAC9817105BA500751E6E /* search.png */; };
+		FF9DAC9C17105BA500751E6E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9DAC9917105BA500751E6E /* star.png */; };
+		FFA0EF4C170227080077ECBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA0EF4B170227080077ECBD /* UIKit.framework */; };
+		FFA0EF4E170227080077ECBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA0EF4D170227080077ECBD /* Foundation.framework */; };
+		FFA0EF50170227080077ECBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA0EF4F170227080077ECBD /* CoreGraphics.framework */; };
+		FFA0EF56170227080077ECBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFA0EF54170227080077ECBD /* InfoPlist.strings */; };
+		FFA0EF58170227080077ECBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA0EF57170227080077ECBD /* main.m */; };
+		FFA0EF5C170227080077ECBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA0EF5B170227080077ECBD /* AppDelegate.m */; };
+		FFA0EF5E170227090077ECBD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0EF5D170227090077ECBD /* Default.png */; };
+		FFA0EF60170227090077ECBD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0EF5F170227090077ECBD /* Default@2x.png */; };
+		FFA0EF62170227090077ECBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0EF61170227090077ECBD /* Default-568h@2x.png */; };
+		FFA0EF65170227090077ECBD /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA0EF64170227090077ECBD /* SCViewController.m */; };
+		FFA0EF68170227090077ECBD /* SCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA0EF66170227090077ECBD /* SCViewController.xib */; };
+		FFA0EF6F170227310077ECBD /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA0EF6E170227310077ECBD /* FacebookSDK.framework */; };
+		FFA0EF71170228750077ECBD /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFA0EF70170228750077ECBD /* FacebookSDKResources.bundle */; };
+		FFA0EF74170228BA0077ECBD /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA0EF72170228BA0077ECBD /* Accounts.framework */; };
+		FFA0EF75170228BA0077ECBD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA0EF73170228BA0077ECBD /* AdSupport.framework */; };
+		FFA0EF771702290C0077ECBD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA0EF761702290C0077ECBD /* Social.framework */; };
+		FFA0EF7B17022BE80077ECBD /* SCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA0EF7917022BE80077ECBD /* SCLoginViewController.m */; };
+		FFA0EF7C17022BE80077ECBD /* SCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA0EF7A17022BE80077ECBD /* SCLoginViewController.xib */; };
+		FFC505E8171ADF8E0090B398 /* UserUpcomingEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC505E6171ADF8E0090B398 /* UserUpcomingEventsViewController.m */; };
+		FFC505E9171ADF8E0090B398 /* UserUpcomingEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC505E7171ADF8E0090B398 /* UserUpcomingEventsViewController.xib */; };
+		FFC505ED171ADFA40090B398 /* UserPastEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC505EB171ADFA30090B398 /* UserPastEventsViewController.m */; };
+		FFC505EE171ADFA40090B398 /* UserPastEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC505EC171ADFA30090B398 /* UserPastEventsViewController.xib */; };
+		FFC505F0171AF4A20090B398 /* tablecellimage.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC505EF171AF4A20090B398 /* tablecellimage.png */; };
+		FFC505F2171B37530090B398 /* favorites_add.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC505F1171B37530090B398 /* favorites_add.png */; };
+		FFC505F4171B3D380090B398 /* Button-Favorite-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC505F3171B3D380090B398 /* Button-Favorite-icon.png */; };
+		FFCCB1EA1714D7EC0080E5D8 /* artist-tab.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCCB1E91714D7EC0080E5D8 /* artist-tab.png */; };
+		FFCCB1EC1714D8050080E5D8 /* music-tab.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCCB1EB1714D8050080E5D8 /* music-tab.png */; };
+		FFCCB1EE1714D8230080E5D8 /* magnifying_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCCB1ED1714D8230080E5D8 /* magnifying_glass.png */; };
+		FFCCB1F01714D8470080E5D8 /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCCB1EF1714D8470080E5D8 /* speaker.png */; };
+		FFCCB1F21714D8860080E5D8 /* fb-login-button.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCCB1F11714D8860080E5D8 /* fb-login-button.png */; };
+		FFEAB0AC1714A791001F85BC /* UserAddNewFavBandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAB0AA1714A790001F85BC /* UserAddNewFavBandViewController.m */; };
+		FFEAB0AD1714A791001F85BC /* UserAddNewFavBandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFEAB0AB1714A790001F85BC /* UserAddNewFavBandViewController.xib */; };
+		FFF2CD971719EBB100DB2441 /* BandDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF2CD951719EBB100DB2441 /* BandDetailViewController.m */; };
+		FFF2CD981719EBB100DB2441 /* BandDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFF2CD961719EBB100DB2441 /* BandDetailViewController.xib */; };
+		FFFB8E63171C69D500840C59 /* UserFavoriteBandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFB8E61171C69D500840C59 /* UserFavoriteBandsViewController.m */; };
+		FFFB8E64171C69D500840C59 /* UserFavoriteBandsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFFB8E62171C69D500840C59 /* UserFavoriteBandsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C1ACD1E171EE3370004453F /* EventDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventDescriptionViewController.h; path = ../EventDescriptionViewController.h; sourceTree = "<group>"; };
+		8C1ACD1F171EE3370004453F /* EventDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventDescriptionViewController.m; path = ../EventDescriptionViewController.m; sourceTree = "<group>"; };
+		8C1ACD20171EE3380004453F /* EventDescriptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventDescriptionViewController.xib; path = ../EventDescriptionViewController.xib; sourceTree = "<group>"; };
+		8C315E1E171DA8FB00FD518E /* BandFavoriteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandFavoriteDetailViewController.h; path = ../BandFavoriteDetailViewController.h; sourceTree = "<group>"; };
+		8C315E1F171DA8FB00FD518E /* BandFavoriteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BandFavoriteDetailViewController.m; path = ../BandFavoriteDetailViewController.m; sourceTree = "<group>"; };
+		8C315E20171DA8FB00FD518E /* BandFavoriteDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BandFavoriteDetailViewController.xib; path = ../BandFavoriteDetailViewController.xib; sourceTree = "<group>"; };
+		8CB67D3717259CBE0072F5C4 /* UserDiscoverEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDiscoverEventsViewController.h; path = ../UserDiscoverEventsViewController.h; sourceTree = "<group>"; };
+		8CB67D3817259CBE0072F5C4 /* UserDiscoverEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserDiscoverEventsViewController.m; path = ../UserDiscoverEventsViewController.m; sourceTree = "<group>"; };
+		8CB67D3917259CBE0072F5C4 /* UserDiscoverEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserDiscoverEventsViewController.xib; path = ../UserDiscoverEventsViewController.xib; sourceTree = "<group>"; };
+		8CB67D3C17259F960072F5C4 /* UserEventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserEventDetailViewController.h; path = ../UserEventDetailViewController.h; sourceTree = "<group>"; };
+		8CB67D3D17259F960072F5C4 /* UserEventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserEventDetailViewController.m; path = ../UserEventDetailViewController.m; sourceTree = "<group>"; };
+		8CB67D3E17259F960072F5C4 /* UserEventDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserEventDetailViewController.xib; path = ../UserEventDetailViewController.xib; sourceTree = "<group>"; };
+		8CF14A4A171E89840046AF99 /* BandEventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandEventsTableViewController.h; path = ../BandEventsTableViewController.h; sourceTree = "<group>"; };
+		8CF14A4B171E89840046AF99 /* BandEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BandEventsTableViewController.m; path = ../BandEventsTableViewController.m; sourceTree = "<group>"; };
+		8CF14A4C171E89840046AF99 /* BandEventsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BandEventsTableViewController.xib; path = ../BandEventsTableViewController.xib; sourceTree = "<group>"; };
+		8CF14A54171E93E90046AF99 /* BandAddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandAddEventViewController.h; path = ../BandAddEventViewController.h; sourceTree = "<group>"; };
+		8CF14A55171E93EA0046AF99 /* BandAddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BandAddEventViewController.m; path = ../BandAddEventViewController.m; sourceTree = "<group>"; };
+		8CF14A56171E93EA0046AF99 /* BandAddEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BandAddEventViewController.xib; path = ../BandAddEventViewController.xib; sourceTree = "<group>"; };
+		FF0E17691712055B00FE2CD2 /* app icon retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app icon retina.png"; sourceTree = "<group>"; };
+		FF0E176A1712055B00FE2CD2 /* app icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app icon.png"; sourceTree = "<group>"; };
+		FF0E176B1712055B00FE2CD2 /* mzm.ihmsxbpe-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mzm.ihmsxbpe-512x512.png"; sourceTree = "<group>"; };
+		FF8C4E3E173F154900F00D52 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		FF8C4E40173F17CC00F00D52 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		FF8C4E42173F1EDF00F00D52 /* PopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpViewController.h; sourceTree = SOURCE_ROOT; };
+		FF8C4E43173F1EDF00F00D52 /* PopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpViewController.m; sourceTree = SOURCE_ROOT; };
+		FF8C4E44173F1EDF00F00D52 /* PopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = SOURCE_ROOT; };
+		FF8C4E47173F1FFA00F00D52 /* delete_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete_32.png; sourceTree = "<group>"; };
+		FF8C4E49173F200500F00D52 /* Volunteering Hands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Volunteering Hands.jpg"; sourceTree = "<group>"; };
+		FF8C4E4B173F20F800F00D52 /* Concert_Hands__PS_Brush__by_pantaeba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concert_Hands__PS_Brush__by_pantaeba.jpg; sourceTree = "<group>"; };
+		FF9381BE1703810700682BB3 /* BandProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandProfileViewController.h; sourceTree = "<group>"; };
+		FF9381BF1703810700682BB3 /* BandProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BandProfileViewController.m; sourceTree = "<group>"; };
+		FF9381C01703810700682BB3 /* BandProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BandProfileViewController.xib; sourceTree = "<group>"; };
+		FF9381C6170388A500682BB3 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		FF9381C7170388A500682BB3 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
+		FF9381C8170388A500682BB3 /* UserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileViewController.xib; sourceTree = "<group>"; };
+		FF939E56174416F900426DA5 /* add to calendar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "add to calendar.jpg"; sourceTree = "<group>"; };
+		FF939E58174418DF00426DA5 /* attend event orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attend event orange.png"; sourceTree = "<group>"; };
+		FF939E59174418DF00426DA5 /* attend event blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attend event blue.png"; sourceTree = "<group>"; };
+		FF9DAC9817105BA500751E6E /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		FF9DAC9917105BA500751E6E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		FFA0EF48170227080077ECBD /* Discover Concerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discover Concerts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA0EF4B170227080077ECBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFA0EF4D170227080077ECBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFA0EF4F170227080077ECBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFA0EF53170227080077ECBD /* Discover Concerts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Discover Concerts-Info.plist"; sourceTree = "<group>"; };
+		FFA0EF55170227080077ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFA0EF57170227080077ECBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFA0EF59170227080077ECBD /* Discover Concerts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Discover Concerts-Prefix.pch"; sourceTree = "<group>"; };
+		FFA0EF5A170227080077ECBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFA0EF5B170227080077ECBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFA0EF5D170227090077ECBD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FFA0EF5F170227090077ECBD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FFA0EF61170227090077ECBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FFA0EF63170227090077ECBD /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		FFA0EF64170227090077ECBD /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		FFA0EF67170227090077ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCViewController.xib; sourceTree = "<group>"; };
+		FFA0EF6E170227310077ECBD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		FFA0EF70170228750077ECBD /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		FFA0EF72170228BA0077ECBD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		FFA0EF73170228BA0077ECBD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FFA0EF761702290C0077ECBD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FFA0EF7817022BE80077ECBD /* SCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLoginViewController.h; path = ../SCLoginViewController.h; sourceTree = "<group>"; };
+		FFA0EF7917022BE80077ECBD /* SCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLoginViewController.m; path = ../SCLoginViewController.m; sourceTree = "<group>"; };
+		FFA0EF7A17022BE80077ECBD /* SCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCLoginViewController.xib; path = ../SCLoginViewController.xib; sourceTree = "<group>"; };
+		FFC505E5171ADF8E0090B398 /* UserUpcomingEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserUpcomingEventsViewController.h; sourceTree = "<group>"; };
+		FFC505E6171ADF8E0090B398 /* UserUpcomingEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserUpcomingEventsViewController.m; sourceTree = "<group>"; };
+		FFC505E7171ADF8E0090B398 /* UserUpcomingEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserUpcomingEventsViewController.xib; sourceTree = "<group>"; };
+		FFC505EA171ADFA30090B398 /* UserPastEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPastEventsViewController.h; sourceTree = "<group>"; };
+		FFC505EB171ADFA30090B398 /* UserPastEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPastEventsViewController.m; sourceTree = "<group>"; };
+		FFC505EC171ADFA30090B398 /* UserPastEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserPastEventsViewController.xib; sourceTree = "<group>"; };
+		FFC505EF171AF4A20090B398 /* tablecellimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablecellimage.png; sourceTree = "<group>"; };
+		FFC505F1171B37530090B398 /* favorites_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites_add.png; sourceTree = "<group>"; };
+		FFC505F3171B3D380090B398 /* Button-Favorite-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Favorite-icon.png"; sourceTree = "<group>"; };
+		FFCCB1E91714D7EC0080E5D8 /* artist-tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "artist-tab.png"; sourceTree = "<group>"; };
+		FFCCB1EB1714D8050080E5D8 /* music-tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-tab.png"; sourceTree = "<group>"; };
+		FFCCB1ED1714D8230080E5D8 /* magnifying_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifying_glass.png; sourceTree = "<group>"; };
+		FFCCB1EF1714D8470080E5D8 /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+		FFCCB1F11714D8860080E5D8 /* fb-login-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb-login-button.png"; sourceTree = "<group>"; };
+		FFEAB08117148720001F85BC /* Facebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		FFEAB08217148720001F85BC /* FacebookSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookSDK.h; sourceTree = "<group>"; };
+		FFEAB08317148720001F85BC /* FBAccessTokenData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAccessTokenData.h; sourceTree = "<group>"; };
+		FFEAB08417148720001F85BC /* FBCacheDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBCacheDescriptor.h; sourceTree = "<group>"; };
+		FFEAB08517148720001F85BC /* FBConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		FFEAB08617148720001F85BC /* FBDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		FFEAB08717148720001F85BC /* FBError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBError.h; sourceTree = "<group>"; };
+		FFEAB08817148720001F85BC /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		FFEAB08917148720001F85BC /* FBFriendPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerViewController.h; sourceTree = "<group>"; };
+		FFEAB08A17148720001F85BC /* FBGraphLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBGraphLocation.h; sourceTree = "<group>"; };
+		FFEAB08B17148720001F85BC /* FBGraphObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBGraphObject.h; sourceTree = "<group>"; };
+		FFEAB08C17148720001F85BC /* FBGraphPlace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBGraphPlace.h; sourceTree = "<group>"; };
+		FFEAB08D17148720001F85BC /* FBGraphUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBGraphUser.h; sourceTree = "<group>"; };
+		FFEAB08E17148720001F85BC /* FBInsights.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBInsights.h; sourceTree = "<group>"; };
+		FFEAB08F17148720001F85BC /* FBLoginDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		FFEAB09017148720001F85BC /* FBLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBLoginView.h; sourceTree = "<group>"; };
+		FFEAB09117148720001F85BC /* FBNativeDialogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBNativeDialogs.h; sourceTree = "<group>"; };
+		FFEAB09217148720001F85BC /* FBOpenGraphAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphAction.h; sourceTree = "<group>"; };
+		FFEAB09317148720001F85BC /* FBPlacePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerViewController.h; sourceTree = "<group>"; };
+		FFEAB09417148720001F85BC /* FBProfilePictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBProfilePictureView.h; sourceTree = "<group>"; };
+		FFEAB09517148720001F85BC /* FBRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		FFEAB09617148720001F85BC /* FBRequestConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBRequestConnection.h; sourceTree = "<group>"; };
+		FFEAB09717148720001F85BC /* FBSBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSBJSON.h; sourceTree = "<group>"; };
+		FFEAB09817148720001F85BC /* FBSBJsonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSBJsonBase.h; sourceTree = "<group>"; };
+		FFEAB09917148720001F85BC /* FBSBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSBJsonParser.h; sourceTree = "<group>"; };
+		FFEAB09A17148720001F85BC /* FBSBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSBJsonWriter.h; sourceTree = "<group>"; };
+		FFEAB09B17148720001F85BC /* FBSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		FFEAB09C17148720001F85BC /* FBSessionManualTokenCachingStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSessionManualTokenCachingStrategy.h; sourceTree = "<group>"; };
+		FFEAB09D17148720001F85BC /* FBSessionTokenCachingStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSessionTokenCachingStrategy.h; sourceTree = "<group>"; };
+		FFEAB09E17148720001F85BC /* FBSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSettings.h; sourceTree = "<group>"; };
+		FFEAB09F17148720001F85BC /* FBTestSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBTestSession.h; sourceTree = "<group>"; };
+		FFEAB0A017148720001F85BC /* FBUserSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBUserSettingsViewController.h; sourceTree = "<group>"; };
+		FFEAB0A117148720001F85BC /* FBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		FFEAB0A217148720001F85BC /* FBWebDialogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBWebDialogs.h; sourceTree = "<group>"; };
+		FFEAB0A317148720001F85BC /* NSError+FBError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+FBError.h"; sourceTree = "<group>"; };
+		FFEAB0A91714A790001F85BC /* UserAddNewFavBandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAddNewFavBandViewController.h; sourceTree = "<group>"; };
+		FFEAB0AA1714A790001F85BC /* UserAddNewFavBandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAddNewFavBandViewController.m; sourceTree = "<group>"; };
+		FFEAB0AB1714A790001F85BC /* UserAddNewFavBandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAddNewFavBandViewController.xib; sourceTree = "<group>"; };
+		FFF2CD941719EBB100DB2441 /* BandDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandDetailViewController.h; sourceTree = "<group>"; };
+		FFF2CD951719EBB100DB2441 /* BandDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BandDetailViewController.m; sourceTree = "<group>"; };
+		FFF2CD961719EBB100DB2441 /* BandDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BandDetailViewController.xib; sourceTree = "<group>"; };
+		FFFB8E60171C69D500840C59 /* UserFavoriteBandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserFavoriteBandsViewController.h; sourceTree = "<group>"; };
+		FFFB8E61171C69D500840C59 /* UserFavoriteBandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserFavoriteBandsViewController.m; sourceTree = "<group>"; };
+		FFFB8E62171C69D500840C59 /* UserFavoriteBandsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserFavoriteBandsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA0EF45170227080077ECBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C4E41173F17CC00F00D52 /* EventKitUI.framework in Frameworks */,
+				FF8C4E3F173F154900F00D52 /* EventKit.framework in Frameworks */,
+				FFA0EF771702290C0077ECBD /* Social.framework in Frameworks */,
+				FFA0EF74170228BA0077ECBD /* Accounts.framework in Frameworks */,
+				FFA0EF75170228BA0077ECBD /* AdSupport.framework in Frameworks */,
+				FFA0EF4C170227080077ECBD /* UIKit.framework in Frameworks */,
+				FFA0EF4E170227080077ECBD /* Foundation.framework in Frameworks */,
+				FFA0EF50170227080077ECBD /* CoreGraphics.framework in Frameworks */,
+				FFA0EF6F170227310077ECBD /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9381C41703885600682BB3 /* BAND Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				FF9381BE1703810700682BB3 /* BandProfileViewController.h */,
+				FF9381BF1703810700682BB3 /* BandProfileViewController.m */,
+				FF9381C01703810700682BB3 /* BandProfileViewController.xib */,
+				8CF14A4A171E89840046AF99 /* BandEventsTableViewController.h */,
+				8CF14A4B171E89840046AF99 /* BandEventsTableViewController.m */,
+				8CF14A4C171E89840046AF99 /* BandEventsTableViewController.xib */,
+				8C1ACD1E171EE3370004453F /* EventDescriptionViewController.h */,
+				8C1ACD1F171EE3370004453F /* EventDescriptionViewController.m */,
+				8C1ACD20171EE3380004453F /* EventDescriptionViewController.xib */,
+				8CF14A54171E93E90046AF99 /* BandAddEventViewController.h */,
+				8CF14A55171E93EA0046AF99 /* BandAddEventViewController.m */,
+				8CF14A56171E93EA0046AF99 /* BandAddEventViewController.xib */,
+			);
+			name = "BAND Tab Bar";
+			sourceTree = "<group>";
+		};
+		FF9381C51703886F00682BB3 /* USER Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C4E42173F1EDF00F00D52 /* PopUpViewController.h */,
+				FF8C4E43173F1EDF00F00D52 /* PopUpViewController.m */,
+				FF8C4E44173F1EDF00F00D52 /* PopUpViewController.xib */,
+				FF9381C6170388A500682BB3 /* UserProfileViewController.h */,
+				FF9381C7170388A500682BB3 /* UserProfileViewController.m */,
+				FF9381C8170388A500682BB3 /* UserProfileViewController.xib */,
+				FFFB8E60171C69D500840C59 /* UserFavoriteBandsViewController.h */,
+				FFFB8E61171C69D500840C59 /* UserFavoriteBandsViewController.m */,
+				FFFB8E62171C69D500840C59 /* UserFavoriteBandsViewController.xib */,
+				8C315E1E171DA8FB00FD518E /* BandFavoriteDetailViewController.h */,
+				8C315E1F171DA8FB00FD518E /* BandFavoriteDetailViewController.m */,
+				8C315E20171DA8FB00FD518E /* BandFavoriteDetailViewController.xib */,
+				FFEAB0A91714A790001F85BC /* UserAddNewFavBandViewController.h */,
+				FFEAB0AA1714A790001F85BC /* UserAddNewFavBandViewController.m */,
+				FFEAB0AB1714A790001F85BC /* UserAddNewFavBandViewController.xib */,
+				FFF2CD941719EBB100DB2441 /* BandDetailViewController.h */,
+				FFF2CD951719EBB100DB2441 /* BandDetailViewController.m */,
+				FFF2CD961719EBB100DB2441 /* BandDetailViewController.xib */,
+				8CB67D3717259CBE0072F5C4 /* UserDiscoverEventsViewController.h */,
+				8CB67D3817259CBE0072F5C4 /* UserDiscoverEventsViewController.m */,
+				8CB67D3917259CBE0072F5C4 /* UserDiscoverEventsViewController.xib */,
+				FFC505E5171ADF8E0090B398 /* UserUpcomingEventsViewController.h */,
+				FFC505E6171ADF8E0090B398 /* UserUpcomingEventsViewController.m */,
+				FFC505E7171ADF8E0090B398 /* UserUpcomingEventsViewController.xib */,
+				FFC505EA171ADFA30090B398 /* UserPastEventsViewController.h */,
+				FFC505EB171ADFA30090B398 /* UserPastEventsViewController.m */,
+				FFC505EC171ADFA30090B398 /* UserPastEventsViewController.xib */,
+				8CB67D3C17259F960072F5C4 /* UserEventDetailViewController.h */,
+				8CB67D3D17259F960072F5C4 /* UserEventDetailViewController.m */,
+				8CB67D3E17259F960072F5C4 /* UserEventDetailViewController.xib */,
+			);
+			name = "USER Tab Bar";
+			sourceTree = "<group>";
+		};
+		FFA0EF3F170227080077ECBD = {
+			isa = PBXGroup;
+			children = (
+				FFA0EF51170227080077ECBD /* Discover Concerts */,
+				FFA0EF4A170227080077ECBD /* Frameworks */,
+				FFA0EF49170227080077ECBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA0EF49170227080077ECBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA0EF48170227080077ECBD /* Discover Concerts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA0EF4A170227080077ECBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C4E40173F17CC00F00D52 /* EventKitUI.framework */,
+				FF8C4E3E173F154900F00D52 /* EventKit.framework */,
+				FFEAB08017148720001F85BC /* DeprecatedHeaders */,
+				FFA0EF761702290C0077ECBD /* Social.framework */,
+				FFA0EF72170228BA0077ECBD /* Accounts.framework */,
+				FFA0EF73170228BA0077ECBD /* AdSupport.framework */,
+				FFA0EF70170228750077ECBD /* FacebookSDKResources.bundle */,
+				FFA0EF6E170227310077ECBD /* FacebookSDK.framework */,
+				FFA0EF4B170227080077ECBD /* UIKit.framework */,
+				FFA0EF4D170227080077ECBD /* Foundation.framework */,
+				FFA0EF4F170227080077ECBD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFA0EF51170227080077ECBD /* Discover Concerts */ = {
+			isa = PBXGroup;
+			children = (
+				FF9381C51703886F00682BB3 /* USER Tab Bar */,
+				FF9381C41703885600682BB3 /* BAND Tab Bar */,
+				FFA0EF7817022BE80077ECBD /* SCLoginViewController.h */,
+				FFA0EF7917022BE80077ECBD /* SCLoginViewController.m */,
+				FFA0EF7A17022BE80077ECBD /* SCLoginViewController.xib */,
+				FFA0EF5A170227080077ECBD /* AppDelegate.h */,
+				FFA0EF5B170227080077ECBD /* AppDelegate.m */,
+				FFA0EF63170227090077ECBD /* SCViewController.h */,
+				FFA0EF64170227090077ECBD /* SCViewController.m */,
+				FFA0EF66170227090077ECBD /* SCViewController.xib */,
+				FFA0EF52170227080077ECBD /* Supporting Files */,
+			);
+			path = "Discover Concerts";
+			sourceTree = "<group>";
+		};
+		FFA0EF52170227080077ECBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF939E58174418DF00426DA5 /* attend event orange.png */,
+				FF939E59174418DF00426DA5 /* attend event blue.png */,
+				FF939E56174416F900426DA5 /* add to calendar.jpg */,
+				FFC505EF171AF4A20090B398 /* tablecellimage.png */,
+				FF8C4E4B173F20F800F00D52 /* Concert_Hands__PS_Brush__by_pantaeba.jpg */,
+				FF8C4E49173F200500F00D52 /* Volunteering Hands.jpg */,
+				FF8C4E47173F1FFA00F00D52 /* delete_32.png */,
+				FFCCB1EB1714D8050080E5D8 /* music-tab.png */,
+				FFCCB1ED1714D8230080E5D8 /* magnifying_glass.png */,
+				FFCCB1F11714D8860080E5D8 /* fb-login-button.png */,
+				FFCCB1E91714D7EC0080E5D8 /* artist-tab.png */,
+				FFC505F3171B3D380090B398 /* Button-Favorite-icon.png */,
+				FFC505F1171B37530090B398 /* favorites_add.png */,
+				FF9DAC9817105BA500751E6E /* search.png */,
+				FF9DAC9917105BA500751E6E /* star.png */,
+				FFCCB1EF1714D8470080E5D8 /* speaker.png */,
+				FFA0EF53170227080077ECBD /* Discover Concerts-Info.plist */,
+				FFA0EF54170227080077ECBD /* InfoPlist.strings */,
+				FFA0EF57170227080077ECBD /* main.m */,
+				FF0E17691712055B00FE2CD2 /* app icon retina.png */,
+				FF0E176A1712055B00FE2CD2 /* app icon.png */,
+				FF0E176B1712055B00FE2CD2 /* mzm.ihmsxbpe-512x512.png */,
+				FFA0EF59170227080077ECBD /* Discover Concerts-Prefix.pch */,
+				FFA0EF5D170227090077ECBD /* Default.png */,
+				FFA0EF5F170227090077ECBD /* Default@2x.png */,
+				FFA0EF61170227090077ECBD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFEAB08017148720001F85BC /* DeprecatedHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				FFEAB08117148720001F85BC /* Facebook.h */,
+				FFEAB08217148720001F85BC /* FacebookSDK.h */,
+				FFEAB08317148720001F85BC /* FBAccessTokenData.h */,
+				FFEAB08417148720001F85BC /* FBCacheDescriptor.h */,
+				FFEAB08517148720001F85BC /* FBConnect.h */,
+				FFEAB08617148720001F85BC /* FBDialog.h */,
+				FFEAB08717148720001F85BC /* FBError.h */,
+				FFEAB08817148720001F85BC /* FBFrictionlessRequestSettings.h */,
+				FFEAB08917148720001F85BC /* FBFriendPickerViewController.h */,
+				FFEAB08A17148720001F85BC /* FBGraphLocation.h */,
+				FFEAB08B17148720001F85BC /* FBGraphObject.h */,
+				FFEAB08C17148720001F85BC /* FBGraphPlace.h */,
+				FFEAB08D17148720001F85BC /* FBGraphUser.h */,
+				FFEAB08E17148720001F85BC /* FBInsights.h */,
+				FFEAB08F17148720001F85BC /* FBLoginDialog.h */,
+				FFEAB09017148720001F85BC /* FBLoginView.h */,
+				FFEAB09117148720001F85BC /* FBNativeDialogs.h */,
+				FFEAB09217148720001F85BC /* FBOpenGraphAction.h */,
+				FFEAB09317148720001F85BC /* FBPlacePickerViewController.h */,
+				FFEAB09417148720001F85BC /* FBProfilePictureView.h */,
+				FFEAB09517148720001F85BC /* FBRequest.h */,
+				FFEAB09617148720001F85BC /* FBRequestConnection.h */,
+				FFEAB09717148720001F85BC /* FBSBJSON.h */,
+				FFEAB09817148720001F85BC /* FBSBJsonBase.h */,
+				FFEAB09917148720001F85BC /* FBSBJsonParser.h */,
+				FFEAB09A17148720001F85BC /* FBSBJsonWriter.h */,
+				FFEAB09B17148720001F85BC /* FBSession.h */,
+				FFEAB09C17148720001F85BC /* FBSessionManualTokenCachingStrategy.h */,
+				FFEAB09D17148720001F85BC /* FBSessionTokenCachingStrategy.h */,
+				FFEAB09E17148720001F85BC /* FBSettings.h */,
+				FFEAB09F17148720001F85BC /* FBTestSession.h */,
+				FFEAB0A017148720001F85BC /* FBUserSettingsViewController.h */,
+				FFEAB0A117148720001F85BC /* FBViewController.h */,
+				FFEAB0A217148720001F85BC /* FBWebDialogs.h */,
+				FFEAB0A317148720001F85BC /* NSError+FBError.h */,
+			);
+			name = DeprecatedHeaders;
+			path = ../../FacebookSDK/FacebookSDK.framework/Versions/A/DeprecatedHeaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA0EF47170227080077ECBD /* Discover Concerts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA0EF6B170227090077ECBD /* Build configuration list for PBXNativeTarget "Discover Concerts" */;
+			buildPhases = (
+				FFA0EF44170227080077ECBD /* Sources */,
+				FFA0EF45170227080077ECBD /* Frameworks */,
+				FFA0EF46170227080077ECBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Discover Concerts";
+			productName = "Discover Concerts";
+			productReference = FFA0EF48170227080077ECBD /* Discover Concerts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA0EF40170227080077ECBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Loredana Albulescu";
+			};
+			buildConfigurationList = FFA0EF43170227080077ECBD /* Build configuration list for PBXProject "Discover Concerts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFA0EF3F170227080077ECBD;
+			productRefGroup = FFA0EF49170227080077ECBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA0EF47170227080077ECBD /* Discover Concerts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA0EF46170227080077ECBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA0EF56170227080077ECBD /* InfoPlist.strings in Resources */,
+				FFA0EF5E170227090077ECBD /* Default.png in Resources */,
+				FFA0EF60170227090077ECBD /* Default@2x.png in Resources */,
+				FFA0EF62170227090077ECBD /* Default-568h@2x.png in Resources */,
+				FFA0EF68170227090077ECBD /* SCViewController.xib in Resources */,
+				FFA0EF71170228750077ECBD /* FacebookSDKResources.bundle in Resources */,
+				FFA0EF7C17022BE80077ECBD /* SCLoginViewController.xib in Resources */,
+				FF9381C21703810700682BB3 /* BandProfileViewController.xib in Resources */,
+				FF9381CA170388A500682BB3 /* UserProfileViewController.xib in Resources */,
+				FF9DAC9B17105BA500751E6E /* search.png in Resources */,
+				FF9DAC9C17105BA500751E6E /* star.png in Resources */,
+				FF0E176C1712055B00FE2CD2 /* app icon retina.png in Resources */,
+				FF0E176D1712055B00FE2CD2 /* app icon.png in Resources */,
+				FF0E176E1712055B00FE2CD2 /* mzm.ihmsxbpe-512x512.png in Resources */,
+				FFEAB0AD1714A791001F85BC /* UserAddNewFavBandViewController.xib in Resources */,
+				FFCCB1EA1714D7EC0080E5D8 /* artist-tab.png in Resources */,
+				FFCCB1EC1714D8050080E5D8 /* music-tab.png in Resources */,
+				FFCCB1EE1714D8230080E5D8 /* magnifying_glass.png in Resources */,
+				FFCCB1F01714D8470080E5D8 /* speaker.png in Resources */,
+				FFCCB1F21714D8860080E5D8 /* fb-login-button.png in Resources */,
+				FFF2CD981719EBB100DB2441 /* BandDetailViewController.xib in Resources */,
+				FFC505E9171ADF8E0090B398 /* UserUpcomingEventsViewController.xib in Resources */,
+				FFC505EE171ADFA40090B398 /* UserPastEventsViewController.xib in Resources */,
+				FFC505F0171AF4A20090B398 /* tablecellimage.png in Resources */,
+				FFC505F2171B37530090B398 /* favorites_add.png in Resources */,
+				FFC505F4171B3D380090B398 /* Button-Favorite-icon.png in Resources */,
+				FFFB8E64171C69D500840C59 /* UserFavoriteBandsViewController.xib in Resources */,
+				8C315E22171DA8FB00FD518E /* BandFavoriteDetailViewController.xib in Resources */,
+				8CF14A4E171E89840046AF99 /* BandEventsTableViewController.xib in Resources */,
+				8CF14A58171E93EA0046AF99 /* BandAddEventViewController.xib in Resources */,
+				8C1ACD22171EE3380004453F /* EventDescriptionViewController.xib in Resources */,
+				8CB67D3B17259CBF0072F5C4 /* UserDiscoverEventsViewController.xib in Resources */,
+				8CB67D4017259F960072F5C4 /* UserEventDetailViewController.xib in Resources */,
+				FF8C4E46173F1EDF00F00D52 /* PopUpViewController.xib in Resources */,
+				FF8C4E48173F1FFA00F00D52 /* delete_32.png in Resources */,
+				FF8C4E4A173F200500F00D52 /* Volunteering Hands.jpg in Resources */,
+				FF8C4E4C173F20F800F00D52 /* Concert_Hands__PS_Brush__by_pantaeba.jpg in Resources */,
+				FF939E57174416F900426DA5 /* add to calendar.jpg in Resources */,
+				FF939E5A174418DF00426DA5 /* attend event orange.png in Resources */,
+				FF939E5B174418DF00426DA5 /* attend event blue.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA0EF44170227080077ECBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA0EF58170227080077ECBD /* main.m in Sources */,
+				FFA0EF5C170227080077ECBD /* AppDelegate.m in Sources */,
+				FFA0EF65170227090077ECBD /* SCViewController.m in Sources */,
+				FFA0EF7B17022BE80077ECBD /* SCLoginViewController.m in Sources */,
+				FF9381C11703810700682BB3 /* BandProfileViewController.m in Sources */,
+				FF9381C9170388A500682BB3 /* UserProfileViewController.m in Sources */,
+				FFEAB0AC1714A791001F85BC /* UserAddNewFavBandViewController.m in Sources */,
+				FFF2CD971719EBB100DB2441 /* BandDetailViewController.m in Sources */,
+				FFC505E8171ADF8E0090B398 /* UserUpcomingEventsViewController.m in Sources */,
+				FFC505ED171ADFA40090B398 /* UserPastEventsViewController.m in Sources */,
+				FFFB8E63171C69D500840C59 /* UserFavoriteBandsViewController.m in Sources */,
+				8C315E21171DA8FB00FD518E /* BandFavoriteDetailViewController.m in Sources */,
+				8CF14A4D171E89840046AF99 /* BandEventsTableViewController.m in Sources */,
+				8CF14A57171E93EA0046AF99 /* BandAddEventViewController.m in Sources */,
+				8C1ACD21171EE3380004453F /* EventDescriptionViewController.m in Sources */,
+				8CB67D3A17259CBF0072F5C4 /* UserDiscoverEventsViewController.m in Sources */,
+				8CB67D3F17259F960072F5C4 /* UserEventDetailViewController.m in Sources */,
+				FF8C4E45173F1EDF00F00D52 /* PopUpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFA0EF54170227080077ECBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA0EF55170227080077ECBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FFA0EF66170227090077ECBD /* SCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA0EF67170227090077ECBD /* en */,
+			);
+			name = SCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA0EF69170227090077ECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFA0EF6A170227090077ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA0EF6C170227090077ECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Discover Concerts/Discover Concerts-Prefix.pch";
+				INFOPLIST_FILE = "Discover Concerts/Discover Concerts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FFA0EF6D170227090077ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Discover Concerts/Discover Concerts-Prefix.pch";
+				INFOPLIST_FILE = "Discover Concerts/Discover Concerts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA0EF43170227080077ECBD /* Build configuration list for PBXProject "Discover Concerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA0EF69170227090077ECBD /* Debug */,
+				FFA0EF6A170227090077ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA0EF6B170227090077ECBD /* Build configuration list for PBXNativeTarget "Discover Concerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA0EF6C170227090077ECBD /* Debug */,
+				FFA0EF6D170227090077ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA0EF40170227080077ECBD /* Project object */;
+}
